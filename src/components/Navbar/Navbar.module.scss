@@ -1,0 +1,24 @@
+@import "../styles/variables.scss";
+
+.navbar {
+  display: flex;
+  background-color: $bg-color;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: $color-white;
+
+  &_tabs_link{
+    margin-right: 10px;
+    color: $color-white; /* set color to white */
+    text-decoration: none;
+  }
+  &_end > Button{
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+  &_end > Button:hover{
+    background: none;
+  }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Creepster&family=Mada:wght@500&display=swap');
+
+
+$acme-font: 'Acme', sans-serif;
+$bg-color: rgb(98, 0, 255);
+$color-white: rgba(255, 255, 255, 0.955);
+$dashboard-color: rgb(24, 68, 129);
+$sm: 37.5em;
+$md: 48em;
+$lg: 64em;
+
+@mixin breakpoint($point){
+    @if $point == sm{
+        @media(max-width: $sm){
+            @content;
+        }
+    }
+}
