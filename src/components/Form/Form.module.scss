@@ -1,0 +1,38 @@
+@import "../styles/variables.scss";
+
+.Form_element{
+
+    &_paper{
+        padding: 20px;
+        height: 70vh;
+        width: 300px;
+        margin: 20px auto;
+        
+    }
+
+}
+
+.form{
+
+    &_fileInput{
+        margin-bottom: 10px;
+    }
+    &_submit{
+        background-color: $dashboard-color !important;
+        color: $color-white !important;
+        margin-bottom: 10px !important;
+        &:hover{
+            background-color: $botton-hover  !important;
+            transform: scale(0.9);
+        }
+    }
+    
+    &_clear{
+        background-color: $dashboard-color !important;
+        color: $color-white !important;
+        &:hover{
+            background-color: $botton-hover  !important;
+            transform: scale(0.9);
+        }
+    }
+}

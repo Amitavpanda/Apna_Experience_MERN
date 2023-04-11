@@ -18,8 +18,20 @@ function Dashboard() {
           Create a Post
         </Link>
       </div>
-      <div className="dashboard_posts">
-        <Posts />
+      <div className={styles.featuredPosts}>Featured Posts</div>
+      <div className={styles.dashboard_home}>
+        <div className={styles.dashboard_home_posts}>
+          <Posts />
+        </div>
+
+        <div className={styles.dashboard_home_rightsection}>
+          <div className={styles.dashboard_home_rightsection_widgets}>
+            widgets
+          </div>
+          <div className={styles.dashboard_home_rightsection_categories}>
+            categories
+          </div>
+        </div>
       </div>
     </div>
   );

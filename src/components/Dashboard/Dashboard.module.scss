@@ -1,5 +1,19 @@
 @import "../styles/variables.scss";
 
+
+.dashboard{
+    &_home{
+    display: flex;
+    padding: 10px;
+        &_posts{
+            flex: 0.7;
+            
+        }
+        &_rightsection{
+            flex: 0.3;
+        }
+    }
+}
 .createPost{
     display: flex;
     justify-content: space-around;
@@ -14,3 +28,4 @@
 
     }
 }
+
